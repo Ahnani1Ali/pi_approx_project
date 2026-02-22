@@ -1,5 +1,4 @@
 # Approximation de π par Machine Learning
-## Projet M1 Informatique — Spécialité Intelligence Artificielle
 
 ---
 
