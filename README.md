@@ -94,9 +94,9 @@ $$
 \pi = 4 \int_{0}^{1} \sqrt{1 - x^{2}} \, dx
 $$
 
-Le dataset est généré depuis : 
+Le dataset est généré depuis : $y_i = \sqrt{1 - x_i^{2}} + \varepsilon_i,\;
 
-                                $y_i = \sqrt{1 - x_i^{2}} + \varepsilon_i,\; \varepsilon_i \sim \mathcal{N}(0, \sigma^{2})$.
+\varepsilon_i \sim \mathcal{N}(0, \sigma^{2})$.
 
 ### Monte-Carlo
 $$\hat{\pi}_n^{MC} = \frac{4}{n}\sum_{i=1}^n \mathbf{1}_{U_{1,i}^2+U_{2,i}^2\leq 1}, \quad \sqrt{n}(\hat{\pi}_n - \pi) \xrightarrow{\mathcal{D}} \mathcal{N}(0, \pi(4-\pi))$$
