@@ -148,6 +148,3 @@ Après `python main.py`, les fichiers suivants sont générés :
 7. Hendrycks, D., & Gimpel, K. (2016). Gaussian Error Linear Units (GELUs). *arXiv:1606.08415.*
 8. Trefethen, L. N. (2019). *Approximation Theory and Approximation Practice.* SIAM.
 
----
-
-*Projet de Mathématiques Appliquées — M1 Informatique, Spécialité IA*
