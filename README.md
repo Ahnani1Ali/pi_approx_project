@@ -103,7 +103,11 @@ $$\hat{\theta} = (\Phi^\top\Phi + \lambda I)^{-1}\Phi^\top y, \quad \hat{\pi} = 
 $$\text{GELU}(z) = z \cdot \Phi(z), \quad f_\theta(x) \approx \sqrt{1-x^2}, \quad \hat{\pi} = 4\int_0^1 f_\theta(x)\,dx$$
 
 ### Processus Gaussien
-$$\mu_*(x_*) = \mathbf{k}_*^\top(\mathbf{K}+\sigma_n^2 I)^{-1}\mathbf{y}, \quad \hat{\pi} = 4\int_0^1 \mu_*(x)\,dx$$
+$$
+\mu(x)=\mathbf{k}(x)^\top(\mathbf{K}+\sigma_n^2 \mathbf{I})^{-1}\mathbf{y},
+\qquad
+\hat{\pi}=4\int_0^1 \mu(x)\,dx
+$$
 
 ### Borne PAC (Bartlett & Mendelson 2002)
 $$\mathcal{R}(f) \leq \hat{\mathcal{R}}_n(f) + 2\hat{\mathfrak{R}}_n(\mathcal{H}) + \sqrt{\frac{\log(1/\delta)}{2n}}$$
